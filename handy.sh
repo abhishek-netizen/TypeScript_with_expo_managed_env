@@ -14,7 +14,7 @@ fi
 
 
 echo ""
-echo "Yo !! what files do you want me to add ?"
+echo "what files do you want me to add ?"
 
 read read_my_files
 
@@ -23,7 +23,7 @@ echo "added files => , $read_my_files"
 git add $read_my_files
 
 echo ""
-echo "Yo what is your commit message ?"
+echo "what is your commit message ?"
 
 read read_commit_message
 
@@ -43,5 +43,5 @@ if [ "$ready_to_push" = 'y' ]; then
   echo "Pushing your trash to remote"
   git push
 else
-  echo "Have some guts to push your code to remote yo!! 😂"
+  echo "Have some guts to push your code to remote!! 😂"
 fi
