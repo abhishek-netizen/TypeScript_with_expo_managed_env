@@ -10,7 +10,7 @@ export type RootStackParmaList = {
 }
 
 
-const RootStack = createNativeStackNavigator();
+const RootStack = createNativeStackNavigator<RootStackParmaList>();
 
 const RootNavigator = () => {
   return (
